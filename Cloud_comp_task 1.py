@@ -1,13 +1,27 @@
-#- Find the value of x, such that:
 import time
+import pandas as pd
 
-#𝑥 = 𝑎 + 𝑏
-#𝑎 𝑎𝑛𝑑 𝑏 𝑎𝑟𝑒 𝑎𝑛𝑦 𝑝𝑜𝑠𝑖𝑡𝑖𝑣𝑒 𝑖𝑛𝑡𝑒𝑔𝑒𝑟 𝑛𝑢𝑚𝑏𝑒𝑟𝑠 𝑙𝑒𝑠𝑠 𝑡ℎ𝑎𝑛 10.
-#Task 1
-for a in range(1, 10):
-    print(str(a) + "a")
-    for b in range(1, 10):
-        print(str(b) + "b")
+def main():
+    start_time = time.time()
+    data = []  # List to hold the data for DataFrame
 
-        if a + b == 10:
-            print(str(a) +" and "+ str(b)  +" is equal 10")
+    # Iterate through values of a and b
+    number = 0
+    while number <= 100:
+        for a in range(1, 10):
+            for b in range(1, 10):
+                if a + b == 10:
+                    number += 1
+                    end_time = time.time()
+                    execution_time = end_time - start_time
+                    data.append({'Iteration': number, 'a': a, 'b': b, 'Execution Time (Seconds)': execution_time})
+
+    # Create DataFrame
+    df = pd.DataFrame(data)
+
+    # Export to CSV
+    df.to_csv('cleaned_data.csv', index=False)
+    print(df)  # Optional: Print DataFrame
+
+if __name__ == "__main__":
+    main()

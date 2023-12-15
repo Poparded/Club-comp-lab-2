@@ -1,0 +1,216 @@
+1 and 9 is equal 10
+Execution time: 0.00099945068359375 Seconds
+2 and 8 is equal 10
+Execution time: 0.00099945068359375 Seconds
+3 and 7 is equal 10
+Execution time: 0.00099945068359375 Seconds
+4 and 6 is equal 10
+Execution time: 0.00099945068359375 Seconds
+5 and 5 is equal 10
+Execution time: 0.00099945068359375 Seconds
+6 and 4 is equal 10
+Execution time: 0.00099945068359375 Seconds
+7 and 3 is equal 10
+Execution time: 0.00099945068359375 Seconds
+8 and 2 is equal 10
+Execution time: 0.00099945068359375 Seconds
+9 and 1 is equal 10
+Execution time: 0.00099945068359375 Seconds
+1 and 9 is equal 10
+Execution time: 0.00099945068359375 Seconds
+2 and 8 is equal 10
+Execution time: 0.00099945068359375 Seconds
+3 and 7 is equal 10
+Execution time: 0.00099945068359375 Seconds
+4 and 6 is equal 10
+Execution time: 0.00099945068359375 Seconds
+5 and 5 is equal 10
+Execution time: 0.00099945068359375 Seconds
+6 and 4 is equal 10
+Execution time: 0.00099945068359375 Seconds
+7 and 3 is equal 10
+Execution time: 0.00099945068359375 Seconds
+8 and 2 is equal 10
+Execution time: 0.00099945068359375 Seconds
+9 and 1 is equal 10
+Execution time: 0.00099945068359375 Seconds
+1 and 9 is equal 10
+Execution time: 0.00099945068359375 Seconds
+2 and 8 is equal 10
+Execution time: 0.00099945068359375 Seconds
+3 and 7 is equal 10
+Execution time: 0.00099945068359375 Seconds
+4 and 6 is equal 10
+Execution time: 0.00099945068359375 Seconds
+5 and 5 is equal 10
+Execution time: 0.00099945068359375 Seconds
+6 and 4 is equal 10
+Execution time: 0.00099945068359375 Seconds
+7 and 3 is equal 10
+Execution time: 0.00099945068359375 Seconds
+8 and 2 is equal 10
+Execution time: 0.00099945068359375 Seconds
+9 and 1 is equal 10
+Execution time: 0.00099945068359375 Seconds
+1 and 9 is equal 10
+Execution time: 0.00099945068359375 Seconds
+2 and 8 is equal 10
+Execution time: 0.00099945068359375 Seconds
+3 and 7 is equal 10
+Execution time: 0.00099945068359375 Seconds
+4 and 6 is equal 10
+Execution time: 0.00099945068359375 Seconds
+5 and 5 is equal 10
+Execution time: 0.00099945068359375 Seconds
+6 and 4 is equal 10
+Execution time: 0.00099945068359375 Seconds
+7 and 3 is equal 10
+Execution time: 0.00099945068359375 Seconds
+8 and 2 is equal 10
+Execution time: 0.00099945068359375 Seconds
+9 and 1 is equal 10
+Execution time: 0.00099945068359375 Seconds
+1 and 9 is equal 10
+Execution time: 0.00099945068359375 Seconds
+2 and 8 is equal 10
+Execution time: 0.00099945068359375 Seconds
+3 and 7 is equal 10
+Execution time: 0.00099945068359375 Seconds
+4 and 6 is equal 10
+Execution time: 0.00099945068359375 Seconds
+5 and 5 is equal 10
+Execution time: 0.00099945068359375 Seconds
+6 and 4 is equal 10
+Execution time: 0.00099945068359375 Seconds
+7 and 3 is equal 10
+Execution time: 0.00099945068359375 Seconds
+8 and 2 is equal 10
+Execution time: 0.00099945068359375 Seconds
+9 and 1 is equal 10
+Execution time: 0.00099945068359375 Seconds
+1 and 9 is equal 10
+Execution time: 0.00099945068359375 Seconds
+2 and 8 is equal 10
+Execution time: 0.00099945068359375 Seconds
+3 and 7 is equal 10
+Execution time: 0.00099945068359375 Seconds
+4 and 6 is equal 10
+Execution time: 0.00099945068359375 Seconds
+5 and 5 is equal 10
+Execution time: 0.00099945068359375 Seconds
+6 and 4 is equal 10
+Execution time: 0.00099945068359375 Seconds
+7 and 3 is equal 10
+Execution time: 0.00099945068359375 Seconds
+8 and 2 is equal 10
+Execution time: 0.00099945068359375 Seconds
+9 and 1 is equal 10
+Execution time: 0.00099945068359375 Seconds
+1 and 9 is equal 10
+Execution time: 0.00099945068359375 Seconds
+2 and 8 is equal 10
+Execution time: 0.00099945068359375 Seconds
+3 and 7 is equal 10
+Execution time: 0.00099945068359375 Seconds
+4 and 6 is equal 10
+Execution time: 0.00099945068359375 Seconds
+5 and 5 is equal 10
+Execution time: 0.00099945068359375 Seconds
+6 and 4 is equal 10
+Execution time: 0.00099945068359375 Seconds
+7 and 3 is equal 10
+Execution time: 0.00099945068359375 Seconds
+8 and 2 is equal 10
+Execution time: 0.00099945068359375 Seconds
+9 and 1 is equal 10
+Execution time: 0.00099945068359375 Seconds
+1 and 9 is equal 10
+Execution time: 0.00099945068359375 Seconds
+2 and 8 is equal 10
+Execution time: 0.00099945068359375 Seconds
+3 and 7 is equal 10
+Execution time: 0.00099945068359375 Seconds
+4 and 6 is equal 10
+Execution time: 0.00099945068359375 Seconds
+5 and 5 is equal 10
+Execution time: 0.00099945068359375 Seconds
+6 and 4 is equal 10
+Execution time: 0.00099945068359375 Seconds
+7 and 3 is equal 10
+Execution time: 0.00099945068359375 Seconds
+8 and 2 is equal 10
+Execution time: 0.00099945068359375 Seconds
+9 and 1 is equal 10
+Execution time: 0.00099945068359375 Seconds
+1 and 9 is equal 10
+Execution time: 0.00099945068359375 Seconds
+2 and 8 is equal 10
+Execution time: 0.00099945068359375 Seconds
+3 and 7 is equal 10
+Execution time: 0.00099945068359375 Seconds
+4 and 6 is equal 10
+Execution time: 0.00099945068359375 Seconds
+5 and 5 is equal 10
+Execution time: 0.00099945068359375 Seconds
+6 and 4 is equal 10
+Execution time: 0.00099945068359375 Seconds
+7 and 3 is equal 10
+Execution time: 0.00099945068359375 Seconds
+8 and 2 is equal 10
+Execution time: 0.00099945068359375 Seconds
+9 and 1 is equal 10
+Execution time: 0.00099945068359375 Seconds
+1 and 9 is equal 10
+Execution time: 0.00099945068359375 Seconds
+2 and 8 is equal 10
+Execution time: 0.00099945068359375 Seconds
+3 and 7 is equal 10
+Execution time: 0.00099945068359375 Seconds
+4 and 6 is equal 10
+Execution time: 0.00099945068359375 Seconds
+5 and 5 is equal 10
+Execution time: 0.00099945068359375 Seconds
+6 and 4 is equal 10
+Execution time: 0.00099945068359375 Seconds
+7 and 3 is equal 10
+Execution time: 0.00099945068359375 Seconds
+8 and 2 is equal 10
+Execution time: 0.00099945068359375 Seconds
+9 and 1 is equal 10
+Execution time: 0.00099945068359375 Seconds
+1 and 9 is equal 10
+Execution time: 0.00099945068359375 Seconds
+2 and 8 is equal 10
+Execution time: 0.00099945068359375 Seconds
+3 and 7 is equal 10
+Execution time: 0.00099945068359375 Seconds
+4 and 6 is equal 10
+Execution time: 0.00099945068359375 Seconds
+5 and 5 is equal 10
+Execution time: 0.00099945068359375 Seconds
+6 and 4 is equal 10
+Execution time: 0.00099945068359375 Seconds
+7 and 3 is equal 10
+Execution time: 0.00099945068359375 Seconds
+8 and 2 is equal 10
+Execution time: 0.00099945068359375 Seconds
+9 and 1 is equal 10
+Execution time: 0.00099945068359375 Seconds
+1 and 9 is equal 10
+Execution time: 0.00099945068359375 Seconds
+2 and 8 is equal 10
+Execution time: 0.00099945068359375 Seconds
+3 and 7 is equal 10
+Execution time: 0.00099945068359375 Seconds
+4 and 6 is equal 10
+Execution time: 0.00099945068359375 Seconds
+5 and 5 is equal 10
+Execution time: 0.00099945068359375 Seconds
+6 and 4 is equal 10
+Execution time: 0.00099945068359375 Seconds
+7 and 3 is equal 10
+Execution time: 0.00099945068359375 Seconds
+8 and 2 is equal 10
+Execution time: 0.00099945068359375 Seconds
+9 and 1 is equal 10
+Execution time: 0.00099945068359375 Seconds
