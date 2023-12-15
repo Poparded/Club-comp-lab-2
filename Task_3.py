@@ -1,7 +1,7 @@
 import numpy as np
 import time
 
-def main():
+def task3():
     start_time = time.time()
     log_file = "Task3.txt"  # Name of the log file
 
@@ -33,5 +33,3 @@ def main():
 
     print(f"Execution time: {execution_time} Seconds")
 
-if __name__ == "__main__":
-    main()

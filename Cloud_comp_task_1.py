@@ -1,7 +1,7 @@
 import time
 import pandas as pd
 
-def main():
+def task1():
     start_time = time.time()
     data = []  # List to hold the data for DataFrame
 
@@ -23,5 +23,3 @@ def main():
     df.to_csv('cleaned_data.csv', index=False)
     print(df)  # Optional: Print DataFrame
 
-if __name__ == "__main__":
-    main()
