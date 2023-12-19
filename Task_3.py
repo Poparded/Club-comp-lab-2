@@ -3,34 +3,47 @@ import time
 import pandas as pd
 
 
+
+
+
+
+
 def task3():
-        number = 0
-        data = []  # List to hold the data for DataFrame
+    data = []  # List to hold the data for DataFrame
 
-        while number <= 100:
-            start_time = time.time()
+    start_time = time.perf_counter()
+    number= 0
+    total_time= 0
+    A1 = np.loadtxt('./Matrix_data/matrix_A1.csv', delimiter=',')
+    A2 = np.loadtxt('./Matrix_data/matrix_A2.csv', delimiter=',')
+    B1 = np.loadtxt('./Matrix_data/matrix_B1.csv', delimiter=',')
+    B2 = np.loadtxt('./Matrix_data/matrix_B2.csv', delimiter=',')
 
-            # Generating random 2D matrices
-            A1 = np.random.randint(1, 100, (250, 250))
-            A2 = np.random.randint(1, 100, (250, 250))
-            B1 = np.random.randint(1, 100, (250, 250))
-            B2 = np.random.randint(1, 100, (250, 250))
+    # Matrix multiplication
+    Z1 = np.multiply(A1, B1)
+    Z2 = np.multiply(A2, B2)
+    Z = Z1 + Z2
 
-            # Matrix multiplication
-            Z1 = np.multiply(A1, B1)
-            Z2 = np.multiply(A2, B2)
-            Z = Z1 + Z2
+    end_time = time.perf_counter()
+    execution_time = end_time - start_time
+    total_time += execution_time
 
-            # Writing results to file
+    number += 1
+    # Append results to data list
+    data.append({
+        'Iteration': number,  # Assuming a single iteration since no loop is present
+        'Execution Time (Seconds)': execution_time,
+        "Total Time": total_time
 
-            number += 1
-            end_time = time.time()
-            execution_time = end_time - start_time
-            print(Z)
-            data.append({'Iteration': number, 'a': Z1, 'b': Z2, "x": Z, 'Execution Time (Seconds)': execution_time})
-        df = pd.DataFrame(data)
-        pd.set_option('display.max_rows', 500)
-# Writing execution time to file
+        })
+
+    # Create DataFrame and save to CSV
+    df = pd.DataFrame(data)
+    pd.set_option('display.max_rows', 500)
+    pd.set_option('display.max_columns', 500)
+    df.to_csv('cleaned_data_task3.csv', index=False)
+    pd.set_option("display.precision", 9)
+    np.savetxt('Matrix_data/matrix_Z.csv', Z, delimiter=',')
 
 
 
