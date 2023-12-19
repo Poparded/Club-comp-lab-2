@@ -1,13 +1,15 @@
 import numpy as np
 import time
+import pandas as pd
+
 
 def task3():
-    start_time = time.time()
-    log_file = "Task3.txt"  # Name of the log file
-
-    with open(log_file, "w") as file:
         number = 0
+        data = []  # List to hold the data for DataFrame
+
         while number <= 100:
+            start_time = time.time()
+
             # Generating random 2D matrices
             A1 = np.random.randint(1, 100, (250, 250))
             A2 = np.random.randint(1, 100, (250, 250))
@@ -20,16 +22,15 @@ def task3():
             Z = Z1 + Z2
 
             # Writing results to file
-            file.write(f"Result of Z1 and Z2 is equal to:\n{Z}\n")
 
             number += 1
+            end_time = time.time()
+            execution_time = end_time - start_time
+            print(Z)
+            data.append({'Iteration': number, 'a': Z1, 'b': Z2, "x": Z, 'Execution Time (Seconds)': execution_time})
+        df = pd.DataFrame(data)
+        pd.set_option('display.max_rows', 500)
+# Writing execution time to file
 
-    end_time = time.time()
-    execution_time = end_time - start_time
 
-    # Writing execution time to file
-    with open(log_file, "a") as file:  # Appending to the file
-        file.write(f"Execution time: {execution_time} Seconds\n")
-
-    print(f"Execution time: {execution_time} Seconds")
 
