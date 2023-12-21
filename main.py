@@ -37,37 +37,16 @@ combined_results_df = pd.concat([results_df_task1, results_df_task2, results_df_
 melted_df = combined_results_df.melt(id_vars=['Task'], var_name='VM', value_name='Cost')
 
 # Function to transform and plot each task's DataFrame
-def plot_task_cost(df, task_name):
-    # Transform the DataFrame
-    df_plot = df.melt(id_vars=['Task'], value_vars=['Cost on VM1 ($)', 'Cost on VM2 ($)'],
-                      var_name='VM', value_name='Cost')
-    df_plot['VM'] = df_plot['VM'].str.replace('Cost on ', '')
-    #print(df_plot)
 
-    # Plotting
-    plt.figure(figsize=(6, 4))
-    sns.barplot(x='VM', y='Cost', data=df_plot)
-    plt.title(f'Cost of {task_name} on Different VMs')
-    plt.ylabel('Cost in $')
-    plt.xlabel('VM')
-    plt.show()
 
 # Assuming you have DataFrames: results_df_task1, results_df_task2, results_df_task3
 
-# Plot for Task 1
-plot_task_cost(results_df_task1, 'Task 1')
-
-# Plot for Task 2
-plot_task_cost(results_df_task2, 'Task 2')
-
-# Plot for Task 3
-plot_task_cost(results_df_task3, 'Task 3')
 
 
 
-cost_vm1_task1 = results_df_task1['Cost on VM1 ($)'].iloc[0]
-cost_vm1_task2 = results_df_task2['Cost on Vm1 ($)'].iloc[0]
-cost_vm1_task3 = results_df_task3['Cost on VM1 ($)'].iloc[0]
+cost_vm1_task1 = results_df_task1['Cost on VM ($)'].iloc[0]
+cost_vm1_task2 = results_df_task2['Cost on VM ($)'].iloc[0]
+cost_vm1_task3 = results_df_task3['Cost on VM ($)'].iloc[0]
 print(cost_vm1_task3)
 combined_vm1_costs_df = pd.DataFrame({
     'Task': ['Task 1', 'Task 2', 'Task 3'],
@@ -84,9 +63,9 @@ plt.xlabel('vm1')
 plt.show()
 
 
-cost_vm2_task1 = results_df_task1['Cost on VM2 ($)'].iloc[0]
-cost_vm2_task2 = results_df_task2['Cost on VM2 ($)'].iloc[0]
-cost_vm2_task3 = results_df_task3['Cost on VM2 ($)'].iloc[0]
+cost_vm2_task1 = results_df_task1['Cost on VM ($)'].iloc[0]
+cost_vm2_task2 = results_df_task2['Cost on VM ($)'].iloc[0]
+cost_vm2_task3 = results_df_task3['Cost on VM ($)'].iloc[0]
 print(cost_vm1_task3)
 combined_vm2_costs_df = pd.DataFrame({
     'Task': ['Task 1', 'Task 2', 'Task 3'],
