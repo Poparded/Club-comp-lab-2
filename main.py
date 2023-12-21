@@ -80,3 +80,28 @@ plt.title(f'Cost of vm2 on Different VMs')
 plt.ylabel('Cost in $')
 plt.xlabel('vm2')
 plt.show()
+
+print(results_df_task1)
+
+
+# Time for vm1
+time_vm1_task1 = results_df_task1['Execution Time (s)'].iloc[0]
+time_vm1_task2 = results_df_task2['Execution Time (s)'].iloc[0]
+time_vm1_task3 = results_df_task3['Execution Time (s)'].iloc[0]
+
+# Creating a DataFrame for the combined times
+combined_vm1_time_df = pd.DataFrame({
+    'Task': ['Task 1', 'Task 2', 'Task 3'],
+    'Total Time (s)': [time_vm1_task1, time_vm1_task2, time_vm1_task3]
+})
+
+# Printing the DataFrame for verification
+print(combined_vm1_time_df)
+
+# Creating the bar plot
+plt.figure(figsize=(6, 4))
+sns.barplot(x='Task', y='Total Time (s)', data=combined_vm1_time_df)
+plt.title('Execution Time of Tasks on VM1')
+plt.ylabel('Time (seconds)')
+plt.xlabel('Task')
+plt.show()
