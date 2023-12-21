@@ -1,8 +1,14 @@
 import seaborn as sns
 import pandas as pd
 import matplotlib.pyplot as plt
-
+from Task_1 import task1
+from Task_2 import task2
+from Task_3 import task3
+task1()
+task3()
+task2()
 # Define your functions
+
 def calculate_cost(execution_time, cost_per_hour):
     return (execution_time / 3600) * cost_per_hour
 
