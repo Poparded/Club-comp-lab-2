@@ -10,8 +10,9 @@ def task2():
     total_time = 0
     data = []  # List to hold the data for DataFrame
     y=0
-    a = np.random.randint(1, 100, 50)
-    b = np.random.randint(1, 100, 50)
+
+    a = np.loadtxt('./Task2_AB/random_integers_a.csv', delimiter=',')
+    b = np.loadtxt('./Task2_AB/random_integers_b.csv', delimiter=',')
     suma=0
     sumb=0
     # Iterate through values of a and b
